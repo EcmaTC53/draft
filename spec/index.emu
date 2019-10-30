@@ -5,13 +5,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
 <script src="./main.js"></script>
 <pre class="metadata">
-title: ECMAScript Modules for Embedded Systems
-status: draft
-version: 0.0.1
-copyright: true
+  title: ECMAScript&reg; Modules for Embedded Systems
+  shortname: TC53-Draft
+  location: https://ecmatc53.github.io/draft/
+  status: draft
 </pre>
-
+<style>
+#ecma-logo {
+  width: 500px;
+}
+</style>
+<p><img src="img/ecma-logo.svg" id=ecma-logo></p>
+<emu-import href="./metablock.emu"></emu-import>
+<emu-import href="./introduction.emu"></emu-import>
 <emu-import href="./normative-references.emu"></emu-import>
 <emu-import href="./conventions.emu"></emu-import>
 <emu-import href="./sensors.emu"></emu-import>
 <emu-import href="./pwm.emu"></emu-import>
+<emu-import href="./colophon.emu"></emu-import>

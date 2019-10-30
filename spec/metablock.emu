@@ -1,0 +1,29 @@
+
+<div id=metadata-block>
+  <h1>Contributing to this Specification</h1>
+  <p>This specification is developed on GitHub with the help of the ECMAScript community. There are a number of ways to contribute to the development of this specification:</p>
+  <ul>
+    <li>GitHub Repository: <a href="https://github.com/EcmaTC53/draft">https://github.com/EcmaTC53/draft</a></li>
+    <li>Issues: <a href="https://github.com/EcmaTC53/draft/issues">All Issues</a>, <a href="https://github.com/EcmaTC53/draft/issues/new">File a New Issue</a></li>
+    <li>Pull Requests: <a href="https://github.com/EcmaTC53/draft/pulls">All Pull Requests</a>, <a href="https://github.com/EcmaTC53/draft/pulls/new">Create a New Pull Request</a></li>
+    <li>Test Suite: <a href="https://github.com/EcmaTC53/tests">Not available yet</a></li>
+    <li>Admin:
+      <ul>
+        <li>Chair: <a href="mailto:#">Peter Hoddie</a> (<a href="https://github.com/phoddie">@phoddie</a>)</li>
+      </ul>
+    </li>
+    <li>Editors:
+      <ul>
+        <li><a href="mailto:#">TBD</a> (<a href="https://github.com/EcmaTC53">@TBD</a>)</li>
+      </ul>
+    </li>
+    <li>
+      Community:
+      <ul>
+        <li>Mailing list: <a href="#">TBD</a></li>
+        <li>IRC: <a href="ircs://irc.freenode.net:6667">#TBD</a> on <a href="https://freenode.net/kb/answer/chat">freenode</a></li>
+      </ul>
+    </li>
+  </ul>
+  <p>Refer to the <emu-xref href="#sec-colophon">colophon</emu-xref> for more information on how this document is created.</p>
+</div>

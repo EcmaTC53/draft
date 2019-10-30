@@ -2,7 +2,7 @@
   <h1>Notational Conventions</h1>
 
   <p>
-    This standard uses a subset of the notational conventions of the ECMAScript 2020 Language Specification (ECMA-262 10<sup>th</sup> Edition), as ES2020:
+    This standard uses a subset of the notational conventions of the ECMAScript Language Specification (ECMA-262 10<sup>th</sup> Edition), as ES2020:
   </p>
 
   <ul>
@@ -59,4 +59,12 @@
     </emu-table>
 
   </emu-clause>
+</emu-clause>
+
+<emu-clause id="requirements">
+  <h1>Requirements for Standard Built-in ECMAScript Objects</h1>
+
+  <p>
+    Unless specified otherwise in this document, the objects, functions, and constructors described in this standard are subject to the generic requirements and restrictions specified for standard built-in ECMAScript objects in the ECMAScript Language Specification, 10<sup>th</sup> edition, clause <emu-xref href="#sec-ecmascript-standard-built-in-objects"></emu-xref>, or successor.
+  </p>
 </emu-clause>

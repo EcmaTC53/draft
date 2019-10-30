@@ -3,7 +3,7 @@
   "name": "tc53-draft",
   "description": "Draft for ECMAScript Modules for Embedded Systems",
   "scripts": {
-    "build": "ecmarkup --verbose spec/index.emu out/index.html --assets none --css out/main.css --js out/main.js",
+    "build": "ecmarkup --verbose spec/index.emu out/index.html --assets none --img out/img --css out/main.css --js out/main.js",
     "prebuild": "rm -rf out && mkdir out && cp -R assets/* out/",
     "build-for-pdf": "npm run build -- --old-toc",
     "test": "exit 0",

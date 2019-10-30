@@ -1,0 +1,32 @@
+<emu-intro id="introduction">
+  <h1>Introduction</h1>
+  <p>
+    This specification's source can be found at <a href="https://github.com/EcmaTC53/draft">https://github.com/EcmaTC53/draft</a>.
+  </p>
+  <p>
+    The ECMAScript Modules for Embedded Systems Specification (ECMA-nnn 1<sup>st</sup> Edition), provides key language sensitive functionality as a complement to the ECMAScript Language Specification (ECMA-262 10<sup>th</sup> Edition or successor). Its functionality has been selected from that of well-established Embedded Systems APIs.
+  </p>
+  <p>
+    NAME TBD<br>
+    ECMA-nnn, 1<sup>st</sup> Edition Project Editor
+  </p>
+</emu-intro>
+
+<emu-clause id="scope">
+  <h1>Scope</h1>
+  <p>
+    This Standard defines the application programming interface for ECMAScript modules that support programs that need to adapt to conventions used by different embedded systems.
+  </p>
+
+</emu-clause>
+
+<emu-clause id="conformance">
+  <h1>Conformance</h1>
+  <p>
+    A conforming implementation of the ECMAScript Modules for Embedded Systems Specification must conform to the ECMAScript Language Specification (ECMA-262 10<sup>th</sup> Edition, or successor), and must provide and support all the objects, properties, functions, and program semantics described in this specification.
+  </p>
+  <p>
+    A conforming implementation of the ECMAScript Modules for Embedded Systems Specification is permitted to provide additional objects, properties, and functions beyond those described in this specification. In particular, a conforming implementation of the ECMAScript Modules for Embedded Systems Specification is permitted to provide properties not described in this specification, and values for those properties, for objects that are described in this specification. A conforming implementation is not permitted to add optional arguments to the functions defined in this specification.
+  </p>
+</emu-clause>
+
