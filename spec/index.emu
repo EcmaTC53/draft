@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
 <script src="./main.js"></script>
 <pre class="metadata">
-title: ECMAScript Modules for Embedded Systems (TC53)
+title: ECMAScript Modules for Embedded Systems
 status: draft
 version: 0.0.1
 copyright: true
