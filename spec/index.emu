@@ -13,3 +13,5 @@ copyright: true
 
 <emu-import href="./normative-references.emu"></emu-import>
 <emu-import href="./conventions.emu"></emu-import>
+<emu-import href="./sensors.emu"></emu-import>
+<emu-import href="./pwm.emu"></emu-import>
