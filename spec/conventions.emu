@@ -1,0 +1,62 @@
+<emu-clause id="conventions">
+  <h1>Notational Conventions</h1>
+
+  <p>
+    This standard uses a subset of the notational conventions of the ECMAScript 2020 Language Specification (ECMA-262 10<sup>th</sup> Edition), as ES2020:
+  </p>
+
+  <ul>
+    <li>Object Internal Methods and Internal Slots, as described in ES2020, <emu-xref href="#sec-object-internal-methods-and-internal-slots"></emu-xref>.</li>
+    <li>Algorithm conventions, including the use of abstract operations, as described in ES2020, <emu-xref href="#sec-type-conversion"></emu-xref>, <emu-xref href="#sec-testing-and-comparison-operations"></emu-xref>, <emu-xref href="#sec-operations-on-objects"></emu-xref>.</li>
+    <li>Internal Slots, as described in ES2020, <emu-xref href="#sec-ordinary-object-internal-methods-and-internal-slots"></emu-xref>.</li>
+    <li>The List and Record Specification Type, as described in ES2020, <emu-xref href="#sec-list-and-record-specification-type"></emu-xref>.</li>
+  </ul>
+
+  <emu-note>
+    As described in the ECMAScript Language Specification, algorithms are used to precisely specify the required semantics of ECMAScript constructs, but are not intended to imply the use of any specific implementation technique. Internal slots are used to define the semantics of object values, but are not part of the API. They are defined purely for expository purposes. An implementation of the API must behave as if it produced and operated upon internal slots in the manner described here.
+  </emu-note>
+
+  <p>
+    As an extension to the Record Specification Type, the notation &ldquo;[[&lt;_name_&gt;]]&rdquo; denotes a field whose name is given by the variable _name_, which must have a String value. For example, if a variable _s_ has the value `"a"`, then [[&lt;_s_&gt;]] denotes the field [[a]].
+  </p>
+
+  <p>
+    This specification uses blocks demarcated as <span class="normative-optional">Normative Optional</span> to denote the sense of <emu-xref href="#sec-additional-ecmascript-features-for-web-browsers">Annex B</emu-xref> in ECMA-262. That is, normative optional sections are required when the ECMAScript host is a web browser. The content of the section is normative but optional if the ECMAScript host is not a web browser.
+  </p>
+
+  <emu-clause id="sec-node-well-known-intrinsic-objects">
+    <h1>Well-Known Intrinsic Objects</h1>
+
+    <p>
+      The following table extends the Well-Known Intrinsic Objects table defined in ES2020, <emu-xref href="#sec-well-known-intrinsic-objects"></emu-xref>.
+    </p>
+
+    <emu-table id="table-node-well-known-intrinsic-objects" caption="Well-known Intrinsic Objects (Extensions)">
+      <table>
+        <thead>
+          <tr>
+            <th>Intrinsic Name</th>
+            <th>Global Name</th>
+            <th>Node Reference Name</th>
+            <th>ECMAScript Language Association</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><dfn>%Sensor%</dfn></td>
+            <td>N/A</td>
+            <td>`Sensor`</td>
+            <td>The `Sensor` module object (<emu-xref href="#sensor-module-object"></emu-xref>)</td>
+          </tr>
+          <tr>
+            <td><dfn>%PWM%</dfn></td>
+            <td>N/A</td>
+            <td>`PWM`</td>
+            <td>The `PWM` module object (<emu-xref href="#pwm-module-object"></emu-xref>)</td>
+          </tr>
+        </tbody>
+      </table>
+    </emu-table>
+
+  </emu-clause>
+</emu-clause>
