@@ -1,6 +1,5 @@
 <emu-clause id="sensor-module-object">
   <h1>The Sensor Module Object</h1>
-
   <p>
     The Sensor Module Object is the <dfn>%Sensor%</dfn> intrinsic object and it's not a property in the global object. The Sensor Module Object is a single ordinary object.
   </p>
